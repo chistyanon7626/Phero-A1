@@ -112,6 +112,9 @@
   margin: 0 auto 20px auto;
   font-weight: 600;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+   display: inline-flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .banner-content h1 {
