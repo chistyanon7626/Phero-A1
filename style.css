@@ -13,11 +13,9 @@
   box-sizing: border-box;
 }
 .icon1{
-  height: 20px;
-  width: 20px;
   color: #469165;
 }
-.icon2, .icon3{
+.icon1, .icon2, .icon3{
   height: 20px;
   width: 20px;
 }
@@ -31,6 +29,7 @@
   transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
   display: inline-flex;
   align-items: center;
+  gap: 12px;
   
 }
 .btn {
@@ -52,7 +51,7 @@
 }
 
 .btn2:hover {
-  background-color: #ffffff;
+  background-color: #adadad;
   color: #469165;
 }
 
@@ -181,6 +180,9 @@
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
   text-align: center;
 }
+.card:hover{
+  box-shadow:0 12px 24px rgba(0, 0, 0, 0.15) ;
+}
 
 .card-icon {
   width: 56px;
@@ -247,17 +249,22 @@
 .pointer-item p {
   display: flex;
   align-items: center;
+  gap: 2px;
 }
 
 /* end of solution section */
 
 /* start of clear section */
 #clear{
-    margin: 0 auto;
+  padding: 120px;
+    
 }
 .clear-text {
+   background-color: #F7F6F2;
+    margin: 0 auto; 
     padding: 80px 40px 80px 40px;
     text-align: center;
+    border-radius: 12px;
 }
 .clear-text h3 {
     font-size: 48px;
@@ -322,7 +329,7 @@
   text-align: center;
   font-size: 16px;
   font-weight: 400;
-  color: FAFAFA;
+  color: #FAFAFA;
   margin-top: 30px;
   margin-bottom: 30px;
 }
