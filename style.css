@@ -188,9 +188,46 @@
 }
 
 .card p {
-  font-size: 16px;
-  line-height: 24px;
-  color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
 }
 /* end of info cards */
+.solution-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 120px;
+}
+.image-container img{
+    border-radius: 12px;
+    width: 600px;
+    height: 600px;
+}
+.solution-text h4 {
+    color: #469165;
+    font-weight: 500;
+    margin-bottom: 16px;
 
+}
+.solution-text h3 {
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 16px;
+}
+.solution-text .para{
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+    color: #627382;
+}
+.solution-text p {
+    margin-top: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+}
+/* end of solution section */
