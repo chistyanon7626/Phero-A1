@@ -193,14 +193,16 @@
     color: #627382;
 }
 /* end of info cards */
-.solution-container{
+
+/* start of solution section */
+.solution-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 60px;
     padding: 120px;
 }
-.image-container img{
+.image-container img {
     border-radius: 12px;
     width: 600px;
     height: 600px;
@@ -231,3 +233,28 @@
     color: #001931;
 }
 /* end of solution section */
+
+/* start of clear section */
+#clear{
+    margin: 0 auto;
+}
+.clear-text {
+    padding: 80px 40px 80px 40px;
+    text-align: center;
+}
+.clear-text h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.clear-text p {
+    color: #627382;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.clear-text button{
+    margin-bottom: 16px;
+}
+/* end of c;ear section */
