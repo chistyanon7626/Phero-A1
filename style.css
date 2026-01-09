@@ -24,7 +24,7 @@
   padding: 12px 20px;
   font-size: 16px;
   font-weight: 600;
-   border-radius: 6px;
+  border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
   display: inline-flex;
@@ -252,7 +252,7 @@
 .pointer-item p {
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 8px;
 }
 
 /* end of solution section */
@@ -265,7 +265,7 @@
 .clear-text {
    background-color: #F7F6F2;
     margin: 0 auto; 
-    padding: 80px 40px 80px 40px;
+    padding: 80px 40px;
     text-align: center;
     border-radius: 12px;
 }
@@ -318,9 +318,6 @@
   height: 24px;
   cursor: pointer;
 }
-.footer-icons img:hover {
-  background-color: #636363;
-}
 .footer hr {
    margin: 24px 0;
   border: 1px;
@@ -336,3 +333,4 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+/* end of footer section */
